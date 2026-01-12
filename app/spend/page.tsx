@@ -49,7 +49,7 @@ const incomeCategories = [
 
 type ViewMode = 'day' | 'month' | 'year';
 
-const API_URL = 'http://localhost:9999/api';
+const API_URL = 'https://hosting-ph9i.onrender.com/api';
 
 export default function SpendPage() {
   const { user, loading } = useAuth();
